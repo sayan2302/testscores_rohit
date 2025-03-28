@@ -1,3 +1,1 @@
-export const student_info = 'https://b017-213-173-102-5.ngrok-free.app/process-remaining';
-export const marksheet_table = 'https://b017-213-173-102-5.ngrok-free.app/process-files';
-export const glib_process = 'https://b017-213-173-102-5.ngrok-free.app/glib-process';
+export const score = 'https://6ccb-44-204-190-121.ngrok-free.app/extract-info';
