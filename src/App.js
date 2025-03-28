@@ -4,7 +4,7 @@ import './App.css';
 import Lottie from "lottie-react";
 import ocr_lottie from "./ocr_lottie.json";
 import { toast, ToastContainer } from 'react-toastify';
-import { glib_process, marksheet_table, score, student_info } from './url';
+import { score } from './url';
 
 
 function App() {
