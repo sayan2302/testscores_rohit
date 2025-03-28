@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+* {
+    font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bor {
+    border: 1px red solid;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.montserrat-underline {
+    font-family: "Montserrat Underline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+pre {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+code span {
+    font-weight: bold;
+    /* Ensure bold font for keys */
+}
+
+pre code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+pre code .key {
+    color: #d73a49;
+    /* Red for keys */
+    font-weight: bold;
+}
+
+pre code .string {
+    color: #032f62;
+    /* Blue for strings */
+}
+
+pre code .number {
+    color: #005cc5;
+    /* Dark blue for numbers */
+}
+
+pre code .boolean {
+    color: #d73a49;
+    /* Red for booleans */
+    font-weight: bold;
+}
+
+pre code .null {
+    color: #6f42c1;
+    /* Purple for null */
+    font-style: italic;
 }
